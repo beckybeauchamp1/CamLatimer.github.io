@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Dolce';
+    src: url('fonts/dolce_vita/Dolce Vita Light.ttf') format('truetype');
+}
+
+body{
+  width: 100%;
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  font-weight: 100;
+  padding: 0;
+  flex: auto;
+  display: flex;
+  box-sizing: content-box;
+  /*
+  -- using background position for img might make things easier. just a thought
+  background-image: url('img/blue-heron3.png');
+  background-position: 400px center;
+  background-repeat: no-repeat;
+  */
+}
+#info-holder {
+  position: relative;
+  top: -310px;
+  left: -40px;
+  margin: 0 auto;
+  width: 100%;
+}
+.menu-item {
+  list-style: none;
+  margin: 0 auto;
+  background: rgba(30, 255, 255, 0);
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.menu-link {
+  opacity: 0;
+}
+.project {
+  display: none;
+}
+h1 {
+  opacity: 0;
+}
+.menu-item:hover h1 {
+  background: rgba(30, 255, 255, .3);
+  opacity: 1;
+}
+#surround {
+  width: 400px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+#heron {
+  position: relative;
+  top: 118px;
+  margin: 0 auto;
+  z-index: -1;
+}
+
+@media screen and (max-width: 400px) {
+  .menu-item {
+    list-style: none;
+    margin: 0 auto;
+    background: rgba(30, 255, 255, .3);
+  }
+  h1 {
+    opacity: 1
+  }
+}
