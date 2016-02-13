@@ -21,14 +21,19 @@ body{
 }
 #info-holder {
   position: relative;
-  top: -310px;
+  top: -305px;
   left: -40px;
   margin: 0 auto;
   width: 100%;
+  height: 100%;
 }
 .menu-item {
   list-style: none;
-  margin: 0 auto;
+  height: 70px;
+}
+.menu-text {
+  position: relative;
+  top: 15px;
 }
 a {
   text-decoration: none;
@@ -41,6 +46,8 @@ a {
   display: none;
 }
 h1 {
+  height: 100%;
+  margin: 0;
   opacity: 0;
   -webkit-transition: opacity .5s;
   transition: opacity .5s;
@@ -58,6 +65,8 @@ h1 {
 #heron {
   position: relative;
   top: 118px;
+  height: 420px;
+  width: 400px;
   margin: 0 auto;
   z-index: -1;
 }
@@ -65,7 +74,13 @@ h1 {
   .menu-item {
     list-style: none;
     margin: 0 auto;
+    height: 70px;
+    padding: 0;
     background: rgba(30, 255, 255, .3);
+  }
+  .menu-text {
+    position: relative;
+    top: 15px;
   }
   h1 {
     opacity: 1
