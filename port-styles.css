@@ -6,12 +6,13 @@
 body{
   width: 100%;
   margin: 0;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Dolce', serif;
   font-weight: 100;
   padding: 0;
   flex: auto;
   display: flex;
   box-sizing: content-box;
+  height: 435px;
   /*
   -- using background position for img might make things easier. just a thought
   background-image: url('img/blue-heron3.png');
@@ -77,13 +78,13 @@ h1 {
     margin: 0 auto;
     height: 70px;
     padding: 0;
-    background: rgba(30, 255, 255, .3);
   }
   .menu-text {
     position: relative;
     top: 15px;
   }
   h1 {
-    opacity: 1
+    opacity: 1;
+    background: rgba(30, 255, 255, .3);
   }
 }
